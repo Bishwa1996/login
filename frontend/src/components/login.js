@@ -25,7 +25,7 @@ const handlePassword=(event)=>{
 return(
     <form action= "http://localhost:3000/homepage">
       <h1>Login</h1>
-  <div class="form-group">
+  <div className="form-group">
     <label>Email</label>
     <input type="email" className="form-control" value={values.email} onChange={handleEmail} />
   </div>

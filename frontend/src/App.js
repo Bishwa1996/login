@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       
       <div className="container">
-        <Route path="/register" component={Registration} />
+        <Route path="/" exact component={Registration} />
         <Route path="/login" component={Login} />
         <Route path="/homepage" component={HomePage} />
         <Route path="/createuser" component={CreateUser} />
